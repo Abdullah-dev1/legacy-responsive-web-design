@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+    <link rel="icon" type="image/x-icon"
+        href="https://cdn.pixabay.com/photo/2017/05/15/23/48/survey-2316468_960_720.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <h1 id="title" class="title">Survey-Form</h1>
+    <p id="description" class="description">login for a page </p>
+    <form id="survey-form">
+        <section>
+            <input id="name" class="input Name text" type="text" placeholder="Name" required>
+            <br>
+            <input id="email" class="input email text" type="email" placeholder="E-mail" required>
+            <br>
+            <div>
+                <input id="number" class="input number" type="number" min="1" max="100" placeholder="age">
+                <select id="dropdown" class="input menu">
+                    <option>male</option>
+                    <option>female</option>
+                    <option>rather not say</option>
+                </select>
+            </div>
+            <p class="para">Your information that we can share</p>
+            <label id="name-label">
+                <input type="checkbox" id="email"  value="ds">
+                <label for="email" class="info box">Your number.</label>
+            </label>
+            <br>
+            <label id="email-label">
+                <input type="checkbox" value="dsf">
+                <label for="email" class="info box">Your age.</label>
+            </label>
+            <br>
+            <label id="number-label">
+                <input type="checkbox" value="sdf">
+                <label for="email" class="info box">Your description.</label>
+            </label>
+            <br>
+            <p class="para">Your experience</p>
+            <name>
+                <input type="radio" id="exp" value=" sad" name="dsf">
+                <label for="exp" class="info box">Newbie.</label>
+            </name>
+            <name>
+                <input type="radio" id="exp" value=" sad" name="dsf">
+                <label for="exp" class="info box">Amatuer.</label>
+            </name>
+            <name>
+                <input type="radio" id="exp" value=" sad" name="dsf">
+                <label for="exp" class="info box">professional.</label>
+            </name>
+            <br><br>
+            <textarea class="input about-me">ABOUT ME</textarea>
+            <br>
+            <button id="submit" class="submit">submit</button>
+    </form>
+    </section>
+</body>
+</html>
