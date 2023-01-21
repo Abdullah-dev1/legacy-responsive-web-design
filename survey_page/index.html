@@ -15,50 +15,53 @@
     <form id="survey-form">
         <section>
             <div>
-                <label id="name-label">Name</label>
+                <label id="name-label">Name:</label>
                 <input id="name" class="input__styling" type="text" placeholder="Name" required>
             </div>
 
             <br>
             
             <div>
-                <label id="email-label">Email</label>
+                <label id="email-label">Email:</label>
                 <input id="email" class="input__styling" type="email" placeholder="E-Mail" required>
             </div>
 
             <br>
 
             <div class="user__info">
-                <div class="gender">
-                    <label id="number-label">Age</label>
+                <div class="age">
+                    <label id="number-label">Age:</label>
                     <input id="number" class="number__field__styling" type="number" min="1" max="100" placeholder="Age">
                 </div>
 
-                <label for="dropdown">Select Gender</label>
+            <div class="gender">
+                <label for="dropdown">Select Gender:</label>
                 <select id="dropdown" class="gender__dropdown">
                     <option value="male">Male</option>
                     <option value="female">Female</option>
                     <option value="rather not say" selected>Rather not say</option>
                 </select>
             </div>
+
+            </div>
             
             <h2 class="section__heading">Your information that we can share</h2>
             <div class="user__check">
                 <div>
-                   <input id= "share__number" type="checkbox">
+                   <input id= "share__number" type="checkbox" value="true">
                    <label for="share__number" class="checkbox__label">Your number.</label>
                 </div>
 
                 <br>
                 
                 <div>
-                    <input id='share__age' type="checkbox" name="age">
+                    <input id='share__age' type="checkbox" name="age" value="true">
                     <label for="share__age" class="checkbox__label">Your age.</label>
                 </div>
                 <br>
 
                 <div>
-                    <input id="share__description" type="checkbox">
+                    <input id="share__description" value="true" type="checkbox">
                     <label for="email" class="checkbox__label">Your description.</label>
                 </div>
             </div>
@@ -67,18 +70,12 @@
             
             <h2 class="section__heading">Your experience</h2>
             <div>
-                <name>
-                    <input type="radio" id="exp" value="experience" name="exp">
-                    <label for="exp" class="radio__btn">Newbie.</label>
-                </name>
-                <name>
-                    <input type="radio" id="exp" value="xp" name="xperience">
-                    <label for="exp" class="radio__btn">Amatuer.</label>
-                </name>
-                <name>
-                    <input type="radio" id="exp" value="exp" name="experience">
-                    <label for="exp" class="radio__btn">professional.</label>
-                </name>
+                <input type="radio" id="newbie" value="newbie" name="exp">
+                <label for="newbie" class="radio__btn">Newbie.</label>
+                <input type="radio" id="amature" value="amature" name="exp">
+                <label for="amature" class="radio__btn">Amatuer.</label>
+                <input type="radio" id="professional" value="professional" name="exp">
+                <label for="professional" class="radio__btn">Professional.</label>
             </div>
 
             <br />
