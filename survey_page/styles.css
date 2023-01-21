@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  --color-txt: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-color: rgb(112, 126, 185);
+}
+
+h1 {
+  text-align: center;
+  font-size: 70px;
+  font-weight: bold;
+  color: var(--color-txt);
+  padding-top: 40px;
+}
+
+p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: lighter;
+  color: var(--color-txt);
+}
+
+section {
+  padding: 40px;
+  text-align: center;
+}
+
+.input__styling {
+  margin-bottom: 15px;
+  height: 20px;
+  padding: 0 5px;
+  border-radius: 5px;
+  border: 1px solid #000;
+}
+
+label {
+    color: var(--color-txt);
+}
+
+.user__info {
+  display: flex;
+  flex-direction: column;
+align-items: center;}
+
+.gender__dropdown {
+  margin-bottom: 5px;
+  margin-left: 5px;
+  width: 98px;
+  display: block;
+  align-self: center;
+  margin-top: 5px;
+}
+
+.gender, .age {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  width: 260px;
+}
+
+.submit {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 3px 5px;
+  cursor: pointer;
+}
+
+textarea {
+  font-size: 40px;
+}
+
+.menu {
+  width: 70px;
+}
+
+.number__field__styling {
+  margin-left: 5px;
+  width: 50px;
+}
+
+.section__heading {
+  color: var(--color-txt);
+  font-weight: bolder;
+  margin-bottom: 15px;
+}
+
+.checkbox__label,
+.radio__btn {
+  color: var(--color-txt);
+  font-family: "Times New Roman", Times, serif;
+  float: center;
+}
+.about {
+  font-size: 14px;
+  width: 350px;
+  height: 80px;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+
+.user__check {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+}
+
+@media only screen and (max-width: 460px) {
+   section {
+    padding-left: 5px;
+    padding-right: 5px;
+
+   }
+
+   .about{
+    width: 280px;
+   }
+  }
