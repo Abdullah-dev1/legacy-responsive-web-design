@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="A Technical Documentation About Algorithm."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Algorithm Documentation: Basics and Examples.</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://cdn-icons-png.flaticon.com/512/858/858127.png?w=740&t=st=1686995749~exp=1686996349~hmac=35bc21f2e3a569f620415f4c80ecaa299a74c37ee56e21114ad484b4684606bb"
+    />
+  </head>
+  <body class="main-body">
+    <nav id="navbar" class="navbar">
+      <img
+        alt="A Tree Of Goals"
+        src="https://cdn.pixabay.com/photo/2017/11/30/09/03/tree-2987962_960_720.jpg"
+        class="nav-img"
+        id="main-img"
+      />
+      <div class="links">
+        <header class="algo">ALGORITHM</header>
+        <ul class="nav-list">
+          <li class="nav-button">
+            <a class="nav-link" href="#What_Is_An_Algorithm?"
+              >What Is An Algorithm?</a
+            >
+          </li>
+          <li class="nav-button">
+            <a class="nav-link" href="#Hello_World">Hello World</a>
+          </li>
+
+          <li class="nav-button">
+            <a class="nav-link" href="#Sum_Of_Two_Numbers"
+              >Sum Of Two Numbers</a
+            >
+          </li>
+          <li class="nav-button">
+            <a class="nav-link" href="#Find_Maximum_Number"
+              >Find Maximum Number</a
+            >
+          </li>
+          <li class="nav-button">
+            <a class="nav-link" href="#What_Is_A_Flowchart?"
+              >What Is A Flowchart?</a
+            >
+          </li>
+          <li class="nav-button">
+            <a class="nav-link" href="#Types_Of_Symbols">Types Of Symbols</a>
+          </li>
+          <li class="nav-button">
+            <a class="nav-link" href="#Rules_Of_Flowchart"
+              >Rules Of Flowchart</a
+            >
+          </li>
+          <li class="nav-button">
+            <a class="nav-link" href="#Simple_Addition">Simple Addition</a>
+          </li>
+          <li class="nav-button">
+            <a class="nav-link" href="#SUMMARY">SUMMARY</a>
+          </li>
+        </ul>
+      </div>
+      <p class="algo-info">Learn More About Algorithm:</p>
+      <a
+        class="wiki"
+        href="https://en.wikipedia.org/wiki/Wikipedia"
+        target="_blank"
+      >
+        <img
+          alt="Wikipedia Logo"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/150px-Wikipedia-logo-v2.svg.png"
+          class="nav-pic"
+          id="main-img"
+        />
+      </a>
+    </nav>
+    <section class="main-intro">
+      <div class="heading">
+        <header>
+          <h1>ALGORITHM</h1>
+        </header>
+      </div>
+    </section>
+    <main id="main-doc" class="main-doc">
+      <section id="What_Is_An_Algorithm?" class="main-section">
+        <header class="small-heading">What Is An Algorithm?</header>
+        <p>
+          An algorithm is a systematic approach to problem-solving that consists
+          of a finite set of well-defined instructions. It provides a clear and
+          structured way to tackle complex tasks efficiently, regardless of the
+          programming language or technology used. Algorithms have broad
+          applications, from simple calculations to complex optimization and
+          machine learning. They can be represented using pseudocode,
+          flowcharts, or programming code, facilitating effective communication
+          and implementation. Efficiency and optimization are crucial
+          considerations in algorithm design. Here we are going to use
+          pseudocode for examples.
+        </p>
+        <ul>
+          <li>Systematic problem-solving approach</li>
+          <li>Finite set of well-defined instructions</li>
+          <li>Language and technology independent</li>
+          <li>Broad applications in various domains</li>
+          <li>Represented using pseudocode, flowcharts, or programming code</li>
+          <li>Emphasizes efficiency and optimization.</li>
+        </ul>
+      </section>
+      <section id="Hello_World" class="main-section">
+        <header class="small-heading">Hello World</header>
+        <p>
+          The "Hello, world!" program is a classic starting point for beginners
+          learning a new programming language. It serves as a simple way to get
+          familiar with the basic structure and syntax of the language. In this
+          case, we will explore a pseudocode representation of a "Hello, World!"
+          program written in Visual Basic .NET (VB.NET). Pseudocode allows us to
+          focus on the logic and steps involved in the program without getting
+          into the specifics of the language syntax.
+        </p>
+        <code class="example-code"
+          >Step1. Start<br />
+          Step2. Print "Hello, world!"<br />
+          Step3. Stop</code
+        >
+        <p>
+          The code is a simple example that demonstrates the basic structure of
+          a program in Visual Basic .NET (VB.NET). It prints the phrase "Hello,
+          World!" to the console or output.
+        </p>
+        <p>
+          The program starts by executing the "Start" step, which signifies the
+          beginning of the code execution. Next, the program proceeds to the
+          second step, "Print 'Hello, World!'", where it outputs the text
+          "Hello, World!".
+        </p>
+        <p>
+          Printing in VB.NET typically involves displaying output on the console
+          or in a window, depending on the application context. In this case, it
+          is assumed that the output will be displayed in the console.
+        </p>
+        <p>
+          After printing the text, the program moves to the final step, "Stop",
+          which indicates the end of the program execution. The program
+          execution terminates at this point.
+        </p>
+        <p>
+          In summary, this code serves as a basic introduction to the structure
+          and flow of a VB.NET program. It demonstrates the use of a single line
+          of code to print a message to the console. Although this specific
+          example is short and simple, it lays the foundation for more complex
+          programs in VB.NET.
+        </p>
+      </section>
+      <section id="Sum_Of_Two_Numbers" class="main-section">
+        <header class="small-heading">Sum Of Two Numbers</header>
+        <p>
+          Another example of an algorithm is doing the sum of two numbers. This
+          code calculates the sum of two numbers,<code> num1 and num2 </code>,
+          by adding them together. It provides a simple and efficient approach
+          to perform basic arithmetic operations. By taking the input numbers
+          and applying the addition operation, the code determines their total
+          sum. It offers a fundamental functionality that is widely used in
+          mathematical calculations and programming applications. The code is
+          designed to handle integer inputs and produces an output representing
+          the sum of the two numbers. It serves as a foundational building block
+          for more complex calculations and algorithms. Whether used
+          independently or as part of a larger program, this code provides a
+          reliable method to obtain the sum of two given numbers.
+        </p>
+        <code class="example-code"
+          >Algorithm: Find Sum of Two Numbers<br />
+
+          Inputs: num1, num2 (two integers)<br />
+
+          Step 1: Set the variable sum to the sum of num1 and num2.<br />
+          Step 2: Return sum as the result.</code
+        >
+        <p>
+          The algorithm begins by taking two input numbers,<code>
+            num1 and num2 </code
+          >. It then calculates their sum by adding<code> num1 and num2 </code
+          >together and assigns the result to the variable sum. Finally, it
+          returns the sum as the output of the algorithm. This algorithm is a
+          straightforward and efficient way to find the sum of two numbers. It
+          follows a simple sequence of steps, making use of the addition
+          operation to compute the sum. The algorithm does not involve any
+          complex operations or iterations, as it directly calculates the sum
+          using the provided input numbers. It can handle both positive and
+          negative numbers, providing the correct sum regardless of the input
+          values. The algorithm's time complexity is constant, as it performs a
+          fixed number of operations irrespective of the input size. Thus, it is
+          efficient and suitable for calculating the sum of two numbers in
+          various programming languages or environments.
+        </p>
+      </section>
+      <section id="Find_Maximum_Number" class="main-section">
+        <header class="small-heading">Find Maximum Number</header>
+        <p>
+          Another example for algorithm is finding the maximum number. Thia
+          example is more complex than the first one, because here we are
+          finding the maximm nunmber in a set of numbers.<br />Here is the code.
+        </p>
+        <code class="example-code"
+          >Algorithm: Find Maximum Number<br />
+
+          Inputs: numbers (a list of integers)<br />
+
+          Step 1: Set the variable max_number to the first element of the list
+          numbers.<br />
+          Step 2: Set the variable index to 1.<br />
+          Step 3: Start a loop from index 1 to the length of the list
+          numbers.<br />
+          - Compare the current element at index with max_number.<br />
+          - If the current element is greater than max_number, update max_number
+          to the current element.<br />
+          - Increment index by 1.<br />
+          Step 4: Return max_number as the maximum number in the list.<br />
+        </code>
+        <p>
+          The algorithm begins by setting the initial maximum number as the
+          first element of the list. It then iterates through the remaining
+          elements, comparing each element to the current maximum. If a larger
+          number is found, the maximum number is updated. This process continues
+          until all elements have been checked. Finally, the algorithm returns
+          the maximum number found. By iteratively updating the maximum number,
+          the algorithm efficiently identifies the largest element in the list.
+        </p>
+      </section>
+      <section class="main-intro">
+        <div class="flowchart-heading">
+          <header>
+            <h2>FLOWCHART</h2>
+          </header>
+        </div>
+      </section>
+      <section id="What_Is_A_Flowchart?" class="main-section">
+        <header class="small-heading">What Is A Flowchart?</header>
+        <p>
+          A flowchart is a visual representation of a process or algorithm that
+          utilizes various symbols and arrows to illustrate the sequential flow
+          of information and decision-making steps. It serves as a powerful tool
+          in fields such as software development, project management, and
+          business analysis. The flowchart typically begins with a start symbol,
+          denoting the initiation of the process, and concludes with an end
+          symbol, signifying its completion. Throughout the flowchart, process
+          symbols depict specific actions or tasks involved, ranging from
+          calculations and data manipulations to other operations. Input/output
+          symbols indicate when data is provided to the process or when the
+          process generates output. Decision symbols mark critical junctures
+          where a question or condition determines the subsequent path the
+          flowchart will follow. Connector symbols enable the connection of
+          different sections located on separate pages or sheets. Flow arrows
+          are utilized to illustrate the direction of flow, enabling a clear
+          understanding of the sequence of steps involved. By employing these
+          various components, a comprehensive and detailed flowchart can
+          effectively communicate complex processes, enabling better analysis,
+          optimization, and comprehension of the overall system.
+        </p>
+      </section>
+      <section id="Types_Of_Symbols" class="main-section">
+        <header class="small-heading">Types Of Symbols</header>
+        <p>
+          A flowchart is a visual representation of a process or algorithm that
+          utilizes various symbols to depict different components and actions
+          within the flow. Each symbol in a flowchart has a specific meaning and
+          purpose, enabling the clear and concise representation of complex
+          processes.
+        </p>
+        <img
+          alt="Symbols Of Flowchart"
+          class="symbols"
+          src="https://wcs.smartdraw.com/flowchart/img/basic-symbols-table.jpg?bn=15100111874"
+        />
+        <p>
+          The flowchart typically begins with a start symbol, which is commonly
+          represented by a rounded rectangle or an oval shape. This symbol marks
+          the initiation of the process and serves as the starting point for the
+          flowchart. The flowchart then progresses through a series of steps,
+          each represented by a rectangular process symbol. These process
+          symbols represent specific actions or tasks within the process, such
+          as calculations, data manipulation, or other operations.
+        </p>
+        <p>
+          Input/output symbols play a crucial role in indicating the flow of
+          data or information into and out of the process. An input symbol,
+          represented by a parallelogram shape, signifies the entry of data or
+          information into the process. Conversely, an output symbol, also
+          represented by a parallelogram, denotes the generated output from the
+          process. These symbols help in understanding the flow of data
+          throughout the process and enable the identification of input
+          requirements and output results.
+        </p>
+        <p>
+          Decision symbols are represented by diamond shapes and serve as
+          critical points in the flowchart where decisions need to be made based
+          on conditions or questions. These symbols are used to illustrate
+          branching paths in the flowchart, allowing different courses of action
+          based on the outcomes of the decisions. Decision symbols facilitate
+          the representation of logic and help in capturing the various possible
+          scenarios within a process.
+        </p>
+        <p>
+          Connector symbols, which are represented by circles or small dots, are
+          used to connect different parts of the flowchart that may be located
+          on different pages or sheets. These symbols enable the flowchart to be
+          structured in a more organized and manageable manner, ensuring clarity
+          and coherence across multiple sections.
+        </p>
+        <p>
+          Additionally, arrows are used extensively in flowcharts to indicate
+          the direction of the flow. These arrows connect the symbols and
+          illustrate the sequence of steps within the process. They depict the
+          flow of information and the order in which actions are performed,
+          allowing for a clear understanding of the process's flow and logic.
+        </p>
+        <p>
+          By utilizing these various symbols, a flowchart becomes a powerful
+          tool for representing processes, algorithms, and workflows in a visual
+          and intuitive manner. It enables better analysis, optimization, and
+          comprehension of complex systems, facilitating effective communication
+          and decision-making.
+        </p>
+      </section>
+      <section id="Rules_Of_Flowchart" class="main-section">
+        <header class="small-heading">Rules Of Flowchart</header>
+        <p>
+          Following are some rules that you should follow while using FLOWCHART:
+        </p>
+        <ol type="I" class="rules">
+          <li>Start with a clear purpose or objective for the flowchart.</li>
+          <li>
+            Use standard flowchart symbols and shapes to represent different
+            elements.
+          </li>
+          <li>
+            Begin with a start/stop symbol to indicate the start and end points
+            of the flowchart.
+          </li>
+          <li>
+            Use arrows to show the direction of flow between steps or processes.
+          </li>
+          <li>
+            Use decision diamonds to represent branching or decision points in
+            the flowchart.
+          </li>
+          <li>Maintain a logical flow from top to bottom or left to right.</li>
+          <li>
+            Label each symbol or shape with a brief, clear description of the
+            action or process it represents.
+          </li>
+          <li>Keep the flowchart simple and avoid unnecessary complexity.</li>
+          <li>
+            Use consistent spacing, alignment, and formatting for a neat and
+            organized appearance.
+          </li>
+          <li>
+            Use connectors or off-page references to link to another part of the
+            flowchart if needed.
+          </li>
+          <li>
+            Use proper indentation or nesting to represent sub-processes or
+            loops.
+          </li>
+          <li>
+            Avoid crossing lines or overlapping symbols to ensure clarity.
+          </li>
+          <li>Use meaningful names for processes, actions, and variables.</li>
+          <li>
+            Clearly define the conditions and outcomes for decision points.
+          </li>
+          <li>
+            Include annotations or comments to explain complex steps or
+            calculations.
+          </li>
+          <li>
+            Test the flowchart by following the steps to ensure it accurately
+            represents the intended process.
+          </li>
+          <li>
+            Review and revise the flowchart for accuracy and clarity before
+            finalizing it.
+          </li>
+          <li>
+            Use appropriate colors to enhance understanding or highlight
+            important elements.
+          </li>
+          <li>
+            Include a legend or key if you're using custom symbols or notations.
+          </li>
+          <li>
+            Keep the audience in mind and create the flowchart at an appropriate
+            level of detail.
+          </li>
+        </ol>
+      </section>
+      <section id="Simple_Addition" class="main-section">
+        <header class="small-heading">Simple Addition</header>
+        <p>
+          You can also represent an algorithm in a simple visual representation.
+          Here in the figure below we are doing sum of two numbers using
+          flowchart,
+        </p>
+        <img
+          alt="Flowchart Of A Problem"
+          class="problem-flowchart"
+          src="https://codescracker.com/computer-fundamental/images/flowchart-find-largest-of-three-number.jpg"
+        />
+        <p>
+          The flowchart begins with the input of three numbers (A, B, and C). It
+          compares A with B, and if A is greater, it further compares A with C.
+          If A is greater than C, then A is the maximum number. However, if A is
+          not greater than C, then C is the maximum number. On the other hand,
+          if A is not greater than B, the flowchart compares B with C. If B is
+          greater than C, then B is the maximum number. Otherwise, C is the
+          maximum number. The flowchart outputs the maximum number as the
+          result, and the process concludes with the stop symbol.
+        </p>
+      </section>
+      <section id="SUMMARY" class="main-section">
+        <header class="summary-heading">SUMMARY</header>
+        <p>
+          Algorithms and flowcharts are fundamental tools used in computer
+          science and other problem-solving disciplines. An algorithm is a
+          step-by-step procedure or set of rules for solving a specific problem,
+          while a flowchart is a visual representation of an algorithm using
+          symbols and arrows to depict the sequence of steps. Together, they
+          provide a systematic approach to problem-solving.
+        </p>
+        <p>
+          Algorithms can be represented in various ways, and flowcharts serve as
+          an effective means of illustrating the logical flow of an algorithm.
+          Flowcharts consist of symbols such as start and stop symbols, process
+          symbols, decision symbols, and connector symbols, which help visualize
+          the sequence of steps, decisions, and actions.
+        </p>
+        <p>
+          When designing algorithms and flowcharts, it's important to consider
+          the problem requirements, data inputs, and desired outputs. Algorithms
+          should be designed to be efficient, clear, and scalable. Flowcharts
+          aid in understanding the algorithm's structure, data flow, and
+          decision-making points.
+        </p>
+        <p>
+          The algorithm and flowchart design process typically involves
+          analyzing the problem, identifying the necessary data and variables,
+          and breaking down the problem into smaller steps. These steps are then
+          translated into the flowchart, using appropriate symbols to represent
+          processes, decisions, and data manipulation.
+        </p>
+        <p>
+          Algorithms and flowcharts allow for the identification of potential
+          errors or inefficiencies early on in the problem-solving process. They
+          enable step-by-step evaluation and refinement, promoting clarity and
+          accuracy in the final solution.
+        </p>
+        <p>
+          When implementing algorithms, programming languages are used to
+          translate the logical steps into executable code. Flowcharts can serve
+          as a blueprint for writing the code, aiding in understanding the
+          overall structure and logic of the program.
+        </p>
+        <p>
+          Both algorithms and flowcharts are essential in algorithm analysis and
+          complexity estimation. They help determine the efficiency and
+          performance of an algorithm by analyzing its time and space
+          complexity. This analysis is crucial for selecting the most
+          appropriate algorithm for a given problem and optimizing its
+          execution.
+        </p>
+        <p>
+          In addition to their practical applications, algorithms and flowcharts
+          contribute to the development of critical thinking and problem-solving
+          skills. They encourage structured thinking, logic, and systematic
+          reasoning.
+        </p>
+        <p>
+          It's important to note that algorithms and flowcharts are not limited
+          to computer science but are applicable in various domains, including
+          mathematics, engineering, and business. They facilitate the
+          understanding, communication, and documentation of complex processes
+          and procedures.
+        </p>
+        <p>
+          In conclusion, algorithms and flowcharts are inseparable tools in
+          problem-solving, providing a structured approach to designing,
+          analyzing, and implementing solutions. They promote clarity,
+          efficiency, and accuracy in solving problems across different
+          disciplines. Understanding and applying algorithms and flowcharts
+          enhance logical thinking and pave the way for effective
+          problem-solving in a wide range of contexts.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>

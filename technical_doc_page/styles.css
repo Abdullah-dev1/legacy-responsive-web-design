@@ -1,0 +1,136 @@
+.main-body {
+  overflow-x: hidden;
+}
+.navbar {
+  background-color: rgb(206, 206, 206);
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  border-right: solid;
+  border-color: #000000;
+  min-height: 290px;
+  width: 300px;
+  height: 100%;
+}
+.nav-img {
+  width: 200px;
+  height: 150px;
+  border: solid black;
+  margin-left: 45px;
+  margin-top: 20px;
+  border-width: 5px;
+}
+.algo {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.nav-list {
+  height: 88%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.nav-button {
+  color: #636363;
+  border-top: 1px solid;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+.nav-link {
+  display: block;
+  padding: 10px 30px;
+  color: #4d4e53;
+  text-decoration: none;
+  cursor: pointer;
+}
+.algo-info{
+  color: #4d4e53;
+  border-top: 1px solid;
+  display: block;
+  padding: 10px 30px;
+}
+.nav-pic{
+  cursor: pointer;
+  margin-left: 35px;
+  height: 100px;
+  width: 100px;
+}
+.main-doc {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+.heading {
+  font-size: 40px;
+  font-weight: bolder;
+  position: relative;
+  left: 530px;
+  margin-top: 40px;
+}
+.small-heading {
+  display: inline-block;
+  font-weight: 900;
+  font-size: 25px;
+  background-color: rgb(206, 206, 206);
+  padding: 5px;
+}
+.main-section {
+  margin: 15px 0px 0px 20px;
+  line-height: 25px;
+}
+.flowchart-heading {
+  font-size: 40px;
+  font-weight: bolder;
+  position: relative;
+  left: 200px;
+  margin-top: 40px;
+}
+.symbols {
+  height: 393px;
+  width: 800px;
+  margin-left: 40px;
+}
+.rules {
+  line-height: 20px;
+}
+.problem-flowchart {
+  margin-left: 200px;
+}
+.summary-heading {
+  font-size: 55px;
+  font-weight: bolder;
+  position: relative;
+  left: 230px;
+  margin-top: 40px;
+}
+
+.example-code {
+  display: block;
+  font-weight: 400;
+  text-align: left;
+  line-height: 35px;
+  position: relative;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: #ececec;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+@media (max-width: 480px) {
+  .navbar {
+    display: none;
+  }
+  .main-doc{
+    margin-left: 0px;
+    margin-right: 900px;
+    padding-right: 0px; 
+    overflow-y: hidden;
+  } 
+  .heading{
+    left: 250px;
+    padding: 0%;
+  }
+}
