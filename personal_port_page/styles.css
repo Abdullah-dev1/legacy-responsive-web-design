@@ -114,3 +114,28 @@
 .links :hover {
   background-color: rgb(85, 85, 85);
 }
+
+@media screen and (max-width: 700px) {
+  .main-heading {
+    font-size: 30px;
+  }
+
+  .main-slogan,
+  .projects-heading {
+    font-size: 20px;
+  }
+
+  .header {
+    display: none;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-image {
+    width: 350px;
+    height: 250px;
+  }
+}
